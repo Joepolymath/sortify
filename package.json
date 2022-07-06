@@ -1,0 +1,19 @@
+{
+  "name": "sortify",
+  "version": "1.0.0",
+  "description": "A potential open source npm package that contains all types of sorting algorithms, where developers can easily use any algorithm of choice by just calling the appropriate methods.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Joepolymath/sortify.git"
+  },
+  "author": "Joshua Ajagbe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joepolymath/sortify/issues"
+  },
+  "homepage": "https://github.com/Joepolymath/sortify#readme"
+}
