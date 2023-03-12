@@ -1,7 +1,6 @@
 // bubble sort algorithm
 
 export class Bubble {
-  public array: number[];
   public constructor() {}
   public sort(array: number[]): number[] {
     let noSwaps: boolean;

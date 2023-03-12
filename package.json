@@ -4,7 +4,8 @@
   "description": "A potential open source npm package that contains all types of sorting algorithms, where developers can easily use any algorithm of choice by just calling the appropriate methods.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "build": "tsc -p ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Joepolymath/sortify/issues"
   },
-  "homepage": "https://github.com/Joepolymath/sortify#readme"
+  "homepage": "https://github.com/Joepolymath/sortify#readme",
+  "dependencies": {
+    "jest": "^29.5.0"
+  }
 }
